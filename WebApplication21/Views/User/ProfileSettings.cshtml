@@ -1,0 +1,590 @@
+﻿@{
+    Layout = null;
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="~/css/profilesettengs.css">
+    <title>Project4</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row mt-3">
+            <div class="col-4 p-0">
+                <p class="text-right mt-3"><a class="text-dark" href="~/User/ProfileSettingsChange"><b>настройки</b></a></p>
+            </div>
+            <div class="col-4 p-0">
+                <a class="navbar-brand mx-auto d-block"  href="~/User/UserPage">
+                    <img class="mx-auto d-block" src="~/images/home/logo455.jpg" alt="Logo" style="width:70px;">
+                </a>
+            </div>
+            <div class="col-4 p-0">
+                <p class="mt-3"><a class="text-dark" href="#"><b>помощь</b></a></p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="icons8-user-male mx-auto d-block"></div>
+                <p class="text-center"><a href="#"><b>Измени фотографию</b></a></p>
+            </div>
+            <div class="col-12">
+                <div class="form-group mt-3 ">
+                    <label for="usr" class="PN">имя профиля:</label>
+                    <input type="text" class="form-control forms mx-auto " placeholder="
+имя профиля" id="usr">
+                </div>
+                <div class="form-group">
+                    <label class="PN" for="comment">био</label>
+                    <textarea class="form-control forms mx-auto " placeholder="моя биография" rows="5" id="comment"></textarea>
+                </div>
+            </div>
+            <div class="col-12">
+                <span class="PN p-3"><b>Сделать профиль общедоступным</b></span>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="col-12">
+                <p class="text-center mt-3 text1">
+                    Если ваш профиль общедоступен, другие могут получить к нему доступ по ссылке:
+                </p>
+                <p class="text-center text1 font-weight-bold"><a class="text-dark " href="#">poplme.co/karen-2</a></p>
+            </div>
+            <div class="col-3"></div>
+            <div class=" col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php  ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/cute-clipart/38/000000/instagram-new.png" />
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Instagram username" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3" title="Instagram username" data-toggle="popover" data-placement="left" data-content="
+Откройте приложение Instagram и перейдите в свой профиль. Ваше имя пользователя в Instagram будет в верхней части экрана.">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/color/40/000000/snapchat-circled-logo.png" />
+                                </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Snapchat username" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="Snapchat username" data-toggle="popover" data-placement="left" data-content="
+
+Откройте Snapchat и нажмите на свою фотографию в верхнем левом углу. Ваше имя пользователя в Snapchat будет ниже вашего имени в Snapchat.">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/color/40/000000/twitter-squared.png" />
+                                </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Twitter username" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="Twitter username" data-toggle="popover" data-placement="left" data-content="
+Откройте приложение Twitter и коснитесь изображения своего профиля в верхнем левом углу. Ваше имя пользователя в твиттере будет выделено серым цветом со знаком ">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/color/40/000000/facebook.png" />
+                                </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Facebook profile link" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="Facebook profile link
+" data-toggle="popover" data-placement="left" data-content="
+
+Перейдите на facebook.com и откройте свой профиль Facebook или страницу. Затем скопируйте и вставьте ссылку URL здесь.">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/color/40/000000/linkedin.png" />
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Linkedin profaile link" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="LinkedIn profile link" data-toggle="popover" data-placement="left" data-content="
+
+
+Перейдите в свой профиль Linkedin и прокрутите вниз до раздела «Контакты». Найдите ссылку на свой профиль в LinkedIn в этом разделе и скопируйте сюда!">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/color/40/000000/android.png" />
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Phone number" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="Text" data-toggle="popover" data-placement="left" data-content="
+
+
+Введите номер телефона с кодом вашей страны (пример +1 для США).">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/color/40/000000/message-squared.png" />
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Email" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="Email" data-toggle="popover" data-placement="left" data-content="
+
+Введите свой адрес электронной почты. Это электронное письмо может быть таким же или отличным от того, которое использовалось для регистрации вашего аккаунта.">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/color/40/000000/youtube-play.png" />
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Youtube user/channel" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="Youtube channel link" data-toggle="popover" data-placement="left" data-content="
+
+
+Откройте приложение Youtube и перейдите на свой канал. Затем нажмите на три точки в верхнем правом углу и нажмите «Поделиться». Скопируйте / вставьте ссылку здесь.">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/ios-filled/40/000000/tiktok.png" />
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Tik Tok username" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="TikTok Username" data-toggle="popover" data-placement="left" data-content="
+
+Open TikTok and go to the “me” tab. Your TikTok username is under your profile picture.">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/color/40/000000/soundcloud.png" />
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Soundcloud username" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="Soundcloud username" data-toggle="popover" data-placement="left" data-content="
+
+Open the Soundcloud app and go to your profile. Copy and paste your username here.">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/color/40/000000/spotify--v1.png" />
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Link to Spotify" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="Link to Spotify
+" data-toggle="popover" data-placement="left" data-content="
+
+Pick your favorite playlist/track/album and tap the three dots in the top right corner. Tap share and copy/paste the link here.">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/office/40/000000/musical.png" />
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Link to Apple Music" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="Link to Apple Music" data-toggle="popover" data-placement="left" data-content="
+
+Выберите свой любимый плейлист / трек / альбом и коснитесь трех точек в верхнем правом углу. Нажмите поделиться и скопировать / вставить ссылку здесь..">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAABmJLR0QA/wD/AP+gvaeTAAACzklEQVRYhe2Yz0sUYRjHP8/shiuUoGB1TB2jErR07VCe8pKXLpnaYbsEodSlv6CCqGMQyLYd0ktISNIfEFEHg9BLQl12zZVIyAqDyMhl5+lg4uzuu+o76RCy39vzY+b74X1n3vedgYp2uaQkoyrx1GwC1QFx2B8GhHosqsNEY607Mt4neX8tWgqXGQP6EVANAw8QEKVnbilzFuj1lxx/EE/NJoD+kLBKpZyPJ9MJf8op6rgYJo9RogP+sABQhPpwaUolIgf8sVOu8X9RBfCvciivUe4AX20ujG7eUqBfCnOCZhXJiuq8IFmFYwg3ioCmVHiF8DJXvTw5c6ntJ0A8la5BubYjgOLouekrh58X5ztSs12inh/w7fRQ82njTVSmYOsLrNUUa54mUz7qeNmiVLx9OOOWcfxi42n3DIpjBHzzyV0AVvy5SESPGg09/W5jafuSGAG5KR7w0Z9SdK+p1VOqbAztphg1A65WswWR8MHUVbwQbyYrQIHGDapZX7ASi3rvjW2qx208bad4X2syYzyCaeEIvpi8fOSHsU84ZWNovVDHxDzNjm8EVXhq6jnxKF0PmJefMrIG1DIvSt7z5gEElnLVy2NGsxy9QGRHASnzHEY0kgVASa3tGsUSdNDWbNtG8FB90wLw7Tdyz1RvT2bOoNJq6xdkBI2A432SF+TqzJC7WFJUFUf0bgCv7QMEmBp0n5jynQ8yF4CTAbwCAR5sGX5n3CVM6khN7/GE2wF8gIDnwVg01rDVXvFqrgs0B/GBwAfWjba8dXU+TLcgciuYx6qCnqg3BXTvp6s8j8dALKAHYH+iBkDU6+lMZYxb2ZoU7UJpC4a1rkCAIN2q2v2v5ltR5avuX1UAqB6lu0DIUtXP/rgQ0GEiXByTpIChALCx1h2hzFkuJD1rqHNH/YnSH5hAPJlOIDpg+/0QVKvTKhMNde5o8Q/Mina9/gBkYNV1t4NsiwAAAABJRU5ErkJggg==">
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Venmo username" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="Venmo username" data-toggle="popover" data-placement="left" data-content="
+
+Откройте приложение Venmo и коснитесь трех строк в верхнем левом углу. Ваше имя пользователя будет выделено серым цветом со знаком .">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/color/40/000000/cash-app.png" />
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Cash App username" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="CashApp username" data-toggle="popover" data-placement="left" data-content="
+Откройте CashApp и нажмите значок профиля в верхнем правом углу. Ваше имя пользователя CashApp будет выделено серым цветом с $.
+">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/color/40/000000/paypal.png" />
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="PayPal.me link" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="paypal.me link" data-toggle="popover" data-placement="left" data-content="
+
+Перейдите на страницу paypal.me и нажмите «Создать ссылку PayPal.Me». После создания скопируйте / вставьте эту ссылку здесь!
+">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/color/40/000000/whatsapp.png" />
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Whatsapp number" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="WhatsApp number" data-toggle="popover" data-placement="left" data-content="
+
+Откройте WhatsApp и зайдите в настройки. Нажмите на свой профиль вверху и добавьте свой номер телефона здесь. Не забудьте указать код вашей страны!
+">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/color/40/000000/twitch--v1.png" />
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Twitch username" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="Twitch channel" data-toggle="popover" data-placement="left" data-content="
+
+Откройте приложение Twitch и перейдите в свою учетную запись. Скопируйте и вставьте ваше имя пользователя здесь!
+">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/flat_round/40/000000/link--v1.png" />
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Custom link" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="Custom link" data-toggle="popover" data-placement="left" data-content="
+
+Откройте нужную пользовательскую ссылку и скопируйте / вставьте ее здесь. Эта ссылка может быть местоположением, ссылкой Paypal, вторым Instagram или чем-либо еще, что вы можете себе представить!
+">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/color/40/000000/compass.png" />
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Website link" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center ">
+                <div class="circlee mt-3 " title="Website link" data-toggle="popover" data-placement="left" data-content="
+
+Откройте нужный веб-сайт и скопируйте / вставьте его здесь.
+">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+            <div class="col-3"></div>
+            <div class="col-9 col-md-5 col-sm-10 ml-4 ">
+                <form action="/action_page.php ">
+                    <div class="input-group  forms1  mt-4 ">
+                        <div class="input-group-prepend ">
+                            <span class="input-group-text p-0">
+                                <img src="https://img.icons8.com/color/40/000000/point-of-interest.png" />
+                            </span>
+                        </div>
+                        <input type="text" class="form-control forms1 ty" placeholder="Business address" id="usr" name="username">
+                        <div class="input-group-append bg-light">
+                            <span><img src="https://img.icons8.com/color/38/000000/close-window.png" /></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-1 p-0 d-flex align-items-center mb-5 ">
+                <div class="circlee mt-4 mb-5" title="Business address" data-toggle="popover" data-placement="left" data-content="
+
+Откройте Google Карты и найдите местоположение вашей компании. Затем нажмите кнопку поделиться в правом верхнем углу и скопируйте всю ссылку здесь!
+">
+                    <p class="text-center text-light">
+                        <i class="fas fa-info-circle" style="font-size: 23px;font-weight: bold;">i</i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="fixed-bottom">
+            <button type="button" class="btn btn-primary mx-auto d-block forms bg-primary "><b>сохранить</b></button>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="~/js/profilesettengs.js"></script>
+</body>
+
+</html>
